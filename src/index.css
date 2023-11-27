@@ -1,0 +1,39 @@
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-pointer.sortable:hover {
+  color: whitesmoke;
+}
+
+.table-card {
+  border: 1px solid rgba(38, 39, 69, 1) !important;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table-head {
+  background-color: rgba(38, 39, 69, 1) !important;
+  border-bottom: 1px solid rgba(247, 133, 0, 1) !important;
+  color: white !important;
+}
+
+.table-btn,
+.table-btn:disabled,
+.table-btn:hover {
+  padding: .4rem .75rem .7rem .75rem;
+  font-weight: 700;
+  background-color: rgba(247, 133, 0, 1);
+  border: none;
+  border-radius: 50%;
+}
+
+.table-btn:hover:active {
+  background-color: rgb(206, 112, 4);
+}
+
+.table-footer {
+  background-color: rgba(38, 39, 69, 1) !important;
+  border-top: 1px solid rgba(247, 133, 0, 1) !important;
+  color: white !important;
+}
